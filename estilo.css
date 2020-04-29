@@ -260,3 +260,15 @@ footer {
 .derecha {
     float: right;
 }
+
+a[href$=".pdf"] { 
+  background-color: #df001e;
+  color: #ffffff;
+  padding: 5px;
+  border-radius: 4px;
+}
+a[href$=".pdf"]:hover { 
+  background-color: #df001e;
+  color: #ffffff;
+  padding: 5px;
+}
